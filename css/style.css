@@ -1,4 +1,76 @@
-.text-box h3:nth-child(odd) {
+:root{
+  --link:red;
+  --baackgr:rgb(62, 62, 62);
+  --linkcol:rgb(191, 44, 44);
+  --yolo:rgb(115, 194, 208);
+  }
+  
+  
+  body {
+     background-color: black;
+  
+     text-align:center;
+  }
+  
+  h1 {
+     text-align: center;
+  }
+  a:link{
+     color:var(--link);
+     text-decoration: none;
+     }
+     a:visited{
+        color:var(--linkcol);
+        text-decoration: none;
+        }
+        table:nth-child(2){
+         background-color: rgb(22, 22, 22);
+         color: aliceblue;
+         border: 2px double rgb(48, 48, 48);
+        }
+        tbody > tr:first-of-type{
+         background-color: rgb(22, 54, 22);
+         color: rgb(86, 174, 74);
+        }
+        tbody > tr:nth-of-type(2){
+         background-color: rgb(7, 15, 59);
+         color: cadetblue;
+        }
+        tbody > tr:last-of-type{
+         background-color: rgb(100, 33, 90);
+         color: rgb(154, 52, 250);
+        }
+        tbody > tr:nth-last-of-type(2){
+         background-color: rgb(39, 72, 72);
+         color: rgb(25, 194, 135);
+        }
+  caption {
+     color: turquoise;
+ 
+  }
+  
+  ul,
+  tr,
+  td,
+  li,
+  caption{
+   border: 2px solid rgb(48, 48, 48);
+  }
+  input {
+     margin: 3px 3px 3px 3px;
+  }
+  
+  .th1 {
+     width: 100%;
+     text-align: center;
+  }
+  
+  .th2 {
+     border: 2px solid black;
+     color: black;
+  }
+
+     .text-box h3:nth-child(odd) {
     color: pink;
   }
   
@@ -17,3 +89,7 @@
   .text-box .yellow {
     color: yellow;
   }
+  tbody > tr:hover{
+ background-color: rgb(69, 69, 69);
+  }
+  
